@@ -12,7 +12,6 @@ func toInt(s string) int {
 	result, err := strconv.Atoi(s)
 	if err != nil {
 		return 0
-		// panic(err)
 	}
 	return result
 }
@@ -75,6 +74,6 @@ func main() {
 		panic(err)
 	}
 
-	//fmt.Printf("Solve1: %d\n", solve1(records))
+	fmt.Printf("Solve1: %d\n", solve1(records))
 	fmt.Printf("Solve2: %d\n", solve2(records))
 }

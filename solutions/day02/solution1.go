@@ -11,6 +11,8 @@ import (
 // B = Paper	Y = Paper		Draw
 // C = Scisors	Z = Scissors	Win
 
+// really need a good approach for strings & chars with Go
+
 func solve2(records []string) int {
 	score := 0
 	for i := 0; i < len(records); i++ {
